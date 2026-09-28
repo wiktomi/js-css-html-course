@@ -8,12 +8,20 @@
 </head>
 <body>  
 
-    <div class="_form-containter">
+    <div class="form-container">
         <form class="form form--add">
-
+            <h1 class="form__title">Dodaj element do DOM</h1>
+            <input name="node" type="text" class="form__input" placeholder="element HTML" required>
+            <input name="txt" type="text" class="form__input" placeholder="tekst w elemencie HTML" >
+            <input name="attr" type="text" class="form__input" placeholder="atrybut" >
+            <input name="value" type="text" class="form__input" placeholder="wartość atrybutu" >
+            <button class="form__button"> Dodaj element</button>
+            
         </form>
         <form class="form form--search">
-
+            <h1 class="form__title">Wyszukaj element DOM</h1>
+            <input type="text" class="form__input" placeholder="szukana nazwa elementu" required>
+            <input type="submit" class="form__button" value="Znajdź i pokaż informację">
         </form>
 
     </div>
