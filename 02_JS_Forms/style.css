@@ -55,5 +55,17 @@ body{
     height: 80px;
     background-color: #222;
     color: #fff;
-
+}
+.result{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+}
+.result__number-info{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.result__element-description{
+    border: 1px solid black;
+    padding: 10px;
 }
